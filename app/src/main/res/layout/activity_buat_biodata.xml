@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuatBiodata">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Nomor"
+        android:id="@+id/editText1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Nama"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Tanggal Lahir"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Jenis kelamin"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Alamat"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simpan"
+        android:layout_below="@+id/editText5"
+        android:id="@+id/button1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:layout_below="@+id/button1"
+        android:id="@+id/button2"
+        />
+</RelativeLayout>
